@@ -23,9 +23,9 @@ function calcularEdad(fechaNacimiento) {
   var edad = Math.floor(diferencia / (1000 * 60 * 60 * 24 * 365.25));
   return edad;
 }
-var nombre = "Lucas";
-var apellido = "Gonzales";
-var apodo = "Luck";
-var fechaNacimiento = "2003-07-16";
+var nombre = "Rodrigo";
+var apellido = "Lima";
+var apodo = "Lolo";
+var fechaNacimiento = "2006-10-20";
 var edadJugador = calcularEdad(fechaNacimiento);
 console.log(nombre + ' "' + apodo + '" ' + apellido + ' (' + edadJugador + ' años)');
